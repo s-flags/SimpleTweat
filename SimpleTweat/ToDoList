@@ -1,0 +1,22 @@
+ToDo List!
+Tested on IOS 6 simulator + iPad (new)
+
+
+1) Refresh
+2) Caching +iOS5 internal caching
+3) Image caching
+4) Better design
+5) Add Link and image tweeting
+6) User Authenting if no valid account
+7) Finish detail view
+8) Tweet date on list view
+9) Rotation support
+10) Error handling/testing
+11) Active link modally to web
+12) Make universal and autolayout
+13) Test with IOS 5.1
+14) Show linked tweet images inDetail view.
+15) User defaults
+16) Date and ( user?) to list view
+17) Change Label Search results
+18) Retweet

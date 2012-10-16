@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5F3804A162C827D00CAA7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F38049162C827D00CAA7C8 /* UIKit.framework */; };
+		C5F3804C162C827D00CAA7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F3804B162C827D00CAA7C8 /* Foundation.framework */; };
+		C5F3804E162C827D00CAA7C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F3804D162C827D00CAA7C8 /* CoreGraphics.framework */; };
+		C5F38054162C827D00CAA7C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5F38052162C827D00CAA7C8 /* InfoPlist.strings */; };
+		C5F38056162C827D00CAA7C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F38055162C827D00CAA7C8 /* main.m */; };
+		C5F3805A162C827D00CAA7C8 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F38059162C827D00CAA7C8 /* SPAppDelegate.m */; };
+		C5F3805C162C827D00CAA7C8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F3805B162C827D00CAA7C8 /* Default.png */; };
+		C5F3805E162C827D00CAA7C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F3805D162C827D00CAA7C8 /* Default@2x.png */; };
+		C5F38060162C827D00CAA7C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F3805F162C827D00CAA7C8 /* Default-568h@2x.png */; };
+		C5F38068162C82F600CAA7C8 /* SPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F38067162C82F600CAA7C8 /* SPListViewController.m */; };
+		C5F3806A162C84DC00CAA7C8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F38069162C84DC00CAA7C8 /* Social.framework */; };
+		C5F3806C162C84E500CAA7C8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F3806B162C84E400CAA7C8 /* Accounts.framework */; };
+		C5F38074162C98E000CAA7C8 /* SPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F38072162C98E000CAA7C8 /* SPDetailViewController.m */; };
+		C5F38075162C98E000CAA7C8 /* SPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F38073162C98E000CAA7C8 /* SPDetailViewController.xib */; };
+		C5F380B5162D5A7000CAA7C8 /* SPSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F380B3162D5A6F00CAA7C8 /* SPSearchViewController.m */; };
+		C5F380B6162D5A7000CAA7C8 /* SPSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F380B4162D5A6F00CAA7C8 /* SPSearchViewController.xib */; };
+		C5F380B9162D9E2100CAA7C8 /* SPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F380B8162D9E2000CAA7C8 /* SPCell.m */; };
+		C5F380BB162D9EA200CAA7C8 /* SPCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F380BA162D9EA100CAA7C8 /* SPCell.xib */; };
+		C5F380BF162DE9AC00CAA7C8 /* ToDoList in Resources */ = {isa = PBXBuildFile; fileRef = C5F380BE162DE9AC00CAA7C8 /* ToDoList */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5F38045162C827D00CAA7C8 /* SimpleTweat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTweat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F38049162C827D00CAA7C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5F3804B162C827D00CAA7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5F3804D162C827D00CAA7C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5F38051162C827D00CAA7C8 /* SimpleTweat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTweat-Info.plist"; sourceTree = "<group>"; };
+		C5F38053162C827D00CAA7C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5F38055162C827D00CAA7C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5F38057162C827D00CAA7C8 /* SimpleTweat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTweat-Prefix.pch"; sourceTree = "<group>"; };
+		C5F38058162C827D00CAA7C8 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		C5F38059162C827D00CAA7C8 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		C5F3805B162C827D00CAA7C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C5F3805D162C827D00CAA7C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C5F3805F162C827D00CAA7C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5F38066162C82F600CAA7C8 /* SPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPListViewController.h; sourceTree = "<group>"; };
+		C5F38067162C82F600CAA7C8 /* SPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPListViewController.m; sourceTree = "<group>"; };
+		C5F38069162C84DC00CAA7C8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C5F3806B162C84E400CAA7C8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C5F38071162C98E000CAA7C8 /* SPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDetailViewController.h; sourceTree = "<group>"; };
+		C5F38072162C98E000CAA7C8 /* SPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPDetailViewController.m; sourceTree = "<group>"; };
+		C5F38073162C98E000CAA7C8 /* SPDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPDetailViewController.xib; sourceTree = "<group>"; };
+		C5F380B2162D5A6F00CAA7C8 /* SPSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSearchViewController.h; sourceTree = "<group>"; };
+		C5F380B3162D5A6F00CAA7C8 /* SPSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSearchViewController.m; sourceTree = "<group>"; };
+		C5F380B4162D5A6F00CAA7C8 /* SPSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPSearchViewController.xib; sourceTree = "<group>"; };
+		C5F380B7162D9E2000CAA7C8 /* SPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCell.h; sourceTree = "<group>"; };
+		C5F380B8162D9E2000CAA7C8 /* SPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCell.m; sourceTree = "<group>"; };
+		C5F380BA162D9EA100CAA7C8 /* SPCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPCell.xib; sourceTree = "<group>"; };
+		C5F380BE162DE9AC00CAA7C8 /* ToDoList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToDoList; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F38042162C827D00CAA7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F3806C162C84E500CAA7C8 /* Accounts.framework in Frameworks */,
+				C5F3806A162C84DC00CAA7C8 /* Social.framework in Frameworks */,
+				C5F3804A162C827D00CAA7C8 /* UIKit.framework in Frameworks */,
+				C5F3804C162C827D00CAA7C8 /* Foundation.framework in Frameworks */,
+				C5F3804E162C827D00CAA7C8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5F3803A162C827D00CAA7C8 = {
+			isa = PBXGroup;
+			children = (
+				C5F3804F162C827D00CAA7C8 /* SimpleTweat */,
+				C5F38048162C827D00CAA7C8 /* Frameworks */,
+				C5F38046162C827D00CAA7C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F38046162C827D00CAA7C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F38045162C827D00CAA7C8 /* SimpleTweat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5F38048162C827D00CAA7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5F3806B162C84E400CAA7C8 /* Accounts.framework */,
+				C5F38049162C827D00CAA7C8 /* UIKit.framework */,
+				C5F3804B162C827D00CAA7C8 /* Foundation.framework */,
+				C5F3804D162C827D00CAA7C8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5F3804F162C827D00CAA7C8 /* SimpleTweat */ = {
+			isa = PBXGroup;
+			children = (
+				C5F38058162C827D00CAA7C8 /* SPAppDelegate.h */,
+				C5F38059162C827D00CAA7C8 /* SPAppDelegate.m */,
+				C5F38066162C82F600CAA7C8 /* SPListViewController.h */,
+				C5F38067162C82F600CAA7C8 /* SPListViewController.m */,
+				C5F380BE162DE9AC00CAA7C8 /* ToDoList */,
+				C5F380B2162D5A6F00CAA7C8 /* SPSearchViewController.h */,
+				C5F380B3162D5A6F00CAA7C8 /* SPSearchViewController.m */,
+				C5F380B4162D5A6F00CAA7C8 /* SPSearchViewController.xib */,
+				C5F380B7162D9E2000CAA7C8 /* SPCell.h */,
+				C5F380B8162D9E2000CAA7C8 /* SPCell.m */,
+				C5F380BA162D9EA100CAA7C8 /* SPCell.xib */,
+				C5F38071162C98E000CAA7C8 /* SPDetailViewController.h */,
+				C5F38072162C98E000CAA7C8 /* SPDetailViewController.m */,
+				C5F38073162C98E000CAA7C8 /* SPDetailViewController.xib */,
+				C5F38050162C827D00CAA7C8 /* Supporting Files */,
+				C5F38069162C84DC00CAA7C8 /* Social.framework */,
+			);
+			path = SimpleTweat;
+			sourceTree = "<group>";
+		};
+		C5F38050162C827D00CAA7C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5F38051162C827D00CAA7C8 /* SimpleTweat-Info.plist */,
+				C5F38052162C827D00CAA7C8 /* InfoPlist.strings */,
+				C5F38055162C827D00CAA7C8 /* main.m */,
+				C5F38057162C827D00CAA7C8 /* SimpleTweat-Prefix.pch */,
+				C5F3805B162C827D00CAA7C8 /* Default.png */,
+				C5F3805D162C827D00CAA7C8 /* Default@2x.png */,
+				C5F3805F162C827D00CAA7C8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F38044162C827D00CAA7C8 /* SimpleTweat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F38063162C827D00CAA7C8 /* Build configuration list for PBXNativeTarget "SimpleTweat" */;
+			buildPhases = (
+				C5F38041162C827D00CAA7C8 /* Sources */,
+				C5F38042162C827D00CAA7C8 /* Frameworks */,
+				C5F38043162C827D00CAA7C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTweat;
+			productName = SimpleTweat;
+			productReference = C5F38045162C827D00CAA7C8 /* SimpleTweat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F3803C162C827D00CAA7C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sander;
+			};
+			buildConfigurationList = C5F3803F162C827D00CAA7C8 /* Build configuration list for PBXProject "SimpleTweat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5F3803A162C827D00CAA7C8;
+			productRefGroup = C5F38046162C827D00CAA7C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F38044162C827D00CAA7C8 /* SimpleTweat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F38043162C827D00CAA7C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F38054162C827D00CAA7C8 /* InfoPlist.strings in Resources */,
+				C5F3805C162C827D00CAA7C8 /* Default.png in Resources */,
+				C5F3805E162C827D00CAA7C8 /* Default@2x.png in Resources */,
+				C5F38060162C827D00CAA7C8 /* Default-568h@2x.png in Resources */,
+				C5F38075162C98E000CAA7C8 /* SPDetailViewController.xib in Resources */,
+				C5F380B6162D5A7000CAA7C8 /* SPSearchViewController.xib in Resources */,
+				C5F380BB162D9EA200CAA7C8 /* SPCell.xib in Resources */,
+				C5F380BF162DE9AC00CAA7C8 /* ToDoList in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F38041162C827D00CAA7C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F38056162C827D00CAA7C8 /* main.m in Sources */,
+				C5F3805A162C827D00CAA7C8 /* SPAppDelegate.m in Sources */,
+				C5F38068162C82F600CAA7C8 /* SPListViewController.m in Sources */,
+				C5F38074162C98E000CAA7C8 /* SPDetailViewController.m in Sources */,
+				C5F380B5162D5A7000CAA7C8 /* SPSearchViewController.m in Sources */,
+				C5F380B9162D9E2100CAA7C8 /* SPCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5F38052162C827D00CAA7C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5F38053162C827D00CAA7C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5F38061162C827D00CAA7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5F38062162C827D00CAA7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F38064162C827D00CAA7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTweat/SimpleTweat-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTweat/SimpleTweat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5F38065162C827D00CAA7C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTweat/SimpleTweat-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTweat/SimpleTweat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F3803F162C827D00CAA7C8 /* Build configuration list for PBXProject "SimpleTweat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F38061162C827D00CAA7C8 /* Debug */,
+				C5F38062162C827D00CAA7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F38063162C827D00CAA7C8 /* Build configuration list for PBXNativeTarget "SimpleTweat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F38064162C827D00CAA7C8 /* Debug */,
+				C5F38065162C827D00CAA7C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F3803C162C827D00CAA7C8 /* Project object */;
+}
